@@ -1,6 +1,7 @@
 name: Lint, Test, Build & Deploy with Helm
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "feature/githubactions", "main" ]
   pull_request:
@@ -8,7 +9,7 @@ on:
 
 env:
   DOCKER_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/fastapi-docker-app
-  HELM_CHART_PATH: ./Python/Day10/fastapi-docker-example/helm-chart
+  HELM_CHART_PATH: ./Python/Day10/fastapi-docker-example/cicd
   NAMESPACE: dev-ns
 
 jobs:
