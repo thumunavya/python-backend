@@ -72,3 +72,4 @@ mysql:
     database: YXBwX2Ri                  # app_db
     user: YXBwX3VzZXI=                  # app_user
     password: YXBwX3Bhc3M=              # app_pass
+    dbHost: bXlzcWwtZGI=
