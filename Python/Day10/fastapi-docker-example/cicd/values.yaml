@@ -42,7 +42,7 @@ app:
 
 # HPA Configuration
 autoscaling:
-  enabled: true
+  enabled: false
   minReplicas: 1
   maxReplicas: 3
   targetCPUUtilizationPercentage: 95
